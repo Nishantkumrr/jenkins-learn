@@ -28,7 +28,6 @@ echo "deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]" \
 
 # is used in Debian-based Linux distributions (such as Ubuntu) to update the local package index.
 sudo apt-get update
-git
 # is used to install the Jenkins 
 sudo apt-get install jenkins
 
@@ -38,8 +37,8 @@ sudo systemctl enable jenkins
 # You can start the Jenkins service with the command:
 sudo systemctl start jenkins
 
-# You can check the status of the Jenkins service using the command:
+# You can check the status of the Jenkins service using the command:  
 sudo systemctl status jenkins
 
 
-![alt text](image.png)
+ ![alt text](image.png)
