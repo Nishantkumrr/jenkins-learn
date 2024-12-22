@@ -41,4 +41,4 @@ sudo systemctl start jenkins
 sudo systemctl status jenkins
 
 
- ![alt text](image.png)
+                   ![alt text](image.png)
